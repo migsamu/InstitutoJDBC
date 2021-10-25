@@ -18,9 +18,9 @@ public class Main {
         //log.info(titleProgram.select().toString());
 
         InsertStudentProgram studentProgram = context.getBean(InsertStudentProgram.class);
-        //studentProgram.createStudent();
+       // studentProgram.createStudent();
         InsertGroupProgram groupProgram = context.getBean(InsertGroupProgram.class);
-        groupProgram.createGroup();
+       groupProgram.createGroup();
 
 
     }

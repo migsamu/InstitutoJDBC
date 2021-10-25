@@ -43,3 +43,23 @@
 2021-10-25 18:22:02 INFO  GroupReader:22 - Introduce la letra
 2021-10-25 18:22:04 INFO  GroupReader:24 - Introduce el título
 2021-10-25 18:22:05 INFO  GroupReader:26 - Introduce el año
+2021-10-26 00:20:23 INFO  GroupReader:20 - Introduce el curso
+2021-10-26 00:20:32 INFO  GroupReader:22 - Introduce la letra
+2021-10-26 00:20:33 INFO  GroupReader:24 - Introduce el título
+2021-10-26 00:20:37 INFO  GroupReader:26 - Introduce el año
+2021-10-26 00:26:08 INFO  StudentReader:19 - Introduce el nif:
+2021-10-26 00:26:14 INFO  StudentReader:21 - Introduce el nombre:
+2021-10-26 00:26:24 INFO  StudentReader:23 - Introduce el apellido:
+2021-10-26 00:26:29 INFO  StudentReader:25 - Introduce el código postal:
+2021-10-26 00:26:33 INFO  StudentReader:28 - Introduce la dirección:
+2021-10-26 00:26:50 INFO  StudentReader:30 - Introduce el email:
+2021-10-26 00:29:45 INFO  StudentReader:19 - Introduce el nif:
+2021-10-26 00:29:49 INFO  StudentReader:21 - Introduce el nombre:
+2021-10-26 00:29:52 INFO  StudentReader:23 - Introduce el apellido:
+2021-10-26 00:29:56 INFO  StudentReader:25 - Introduce el código postal:
+2021-10-26 00:30:00 INFO  StudentReader:28 - Introduce la dirección:
+2021-10-26 00:30:06 INFO  StudentReader:30 - Introduce el email:
+2021-10-26 00:30:47 INFO  GroupReader:20 - Introduce el curso
+2021-10-26 00:30:52 INFO  GroupReader:22 - Introduce la letra
+2021-10-26 00:30:54 INFO  GroupReader:24 - Introduce el título
+2021-10-26 00:30:58 INFO  GroupReader:26 - Introduce el año

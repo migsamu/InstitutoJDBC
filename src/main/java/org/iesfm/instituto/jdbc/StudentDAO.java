@@ -19,9 +19,9 @@ public class StudentDAO {
             ":nif," +
             ":name," +
             ":surname," +
-            "zipCode," +
-            "address," +
-            "email)";
+            ":zipCode," +
+            ":address," +
+            ":email)";
 
     private static final String SELECT_STUDENT = "SELECT * FROM student";
 
@@ -33,6 +33,7 @@ public class StudentDAO {
 
     public void insert(Student student) {
         Map<String, Object> params = new HashMap<>();
+
         params.put("nif", student.getNif());
         params.put("name", student.getName());
         params.put("surname", student.getSurname());
