@@ -5,3 +5,41 @@
 2021-10-25 14:02:38 INFO  TitleReader:26 - Introduce la familia del título
 2021-10-25 14:02:49 INFO  TitleReader:28 - Introduce una breve descripción del título
 2021-10-25 14:08:35 INFO  Main:17 - [Title{id=1, name='Desarrollo de aplicaciones web', level='GS', family='Informatica', description='Hacer aplicaciones web'}, Title{id=2, name='daw', level='gs', family='IT', description='crear apps web'}]
+2021-10-25 16:18:46 INFO  TitleReader:22 - Introduce el nombre del título
+2021-10-25 16:18:56 INFO  TitleReader:24 - Introduce el nivel del título
+2021-10-25 16:18:58 INFO  TitleReader:26 - Introduce la familia del título
+2021-10-25 16:19:02 INFO  TitleReader:28 - Introduce una breve descripción del título
+2021-10-25 16:19:25 INFO  Main:17 - [Title{id=1, name='dam', level='gs', family='IT', description='desrrollar apps multiplataforma'}]
+2021-10-25 17:05:27 INFO  StudentReader:19 - Introduce el nif:
+2021-10-25 17:05:35 INFO  StudentReader:21 - Introduce el nombre:
+2021-10-25 17:05:40 INFO  StudentReader:23 - Introduce el apellido:
+2021-10-25 17:05:45 INFO  StudentReader:25 - Introduce la familia del título:
+2021-10-25 17:06:52 INFO  StudentReader:19 - Introduce el nif:
+2021-10-25 17:06:56 INFO  StudentReader:21 - Introduce el nombre:
+2021-10-25 17:06:58 INFO  StudentReader:23 - Introduce el apellido:
+2021-10-25 17:06:59 INFO  StudentReader:25 - Introduce el código postal:
+2021-10-25 17:07:07 INFO  StudentReader:28 - Introduce la dirección:
+2021-10-25 17:07:24 INFO  StudentReader:30 - Introduce el email:
+2021-10-25 17:08:55 INFO  StudentReader:19 - Introduce el nif:
+2021-10-25 17:09:11 INFO  StudentReader:21 - Introduce el nombre:
+2021-10-25 17:09:26 INFO  StudentReader:23 - Introduce el apellido:
+2021-10-25 17:09:29 INFO  StudentReader:25 - Introduce el código postal:
+2021-10-25 17:09:33 INFO  StudentReader:28 - Introduce la dirección:
+2021-10-25 17:09:43 INFO  StudentReader:30 - Introduce el email:
+2021-10-25 18:12:00 INFO  GroupReader:20 - Introduce el curso
+2021-10-25 18:12:29 INFO  GroupReader:22 - Introduce la letra
+2021-10-25 18:12:32 INFO  GroupReader:24 - Introduce el título
+2021-10-25 18:12:37 INFO  GroupReader:26 - Introduce el año
+2021-10-25 18:13:35 INFO  GroupReader:20 - Introduce el curso
+2021-10-25 18:13:37 INFO  GroupReader:20 - Introduce el curso
+2021-10-25 18:13:42 INFO  GroupReader:22 - Introduce la letra
+2021-10-25 18:13:44 INFO  GroupReader:24 - Introduce el título
+2021-10-25 18:13:45 INFO  GroupReader:26 - Introduce el año
+2021-10-25 18:20:55 INFO  GroupReader:20 - Introduce el curso
+2021-10-25 18:21:02 INFO  GroupReader:22 - Introduce la letra
+2021-10-25 18:21:04 INFO  GroupReader:24 - Introduce el título
+2021-10-25 18:21:07 INFO  GroupReader:26 - Introduce el año
+2021-10-25 18:22:00 INFO  GroupReader:20 - Introduce el curso
+2021-10-25 18:22:02 INFO  GroupReader:22 - Introduce la letra
+2021-10-25 18:22:04 INFO  GroupReader:24 - Introduce el título
+2021-10-25 18:22:05 INFO  GroupReader:26 - Introduce el año

@@ -47,4 +47,34 @@ public class InstitutoConfiguration {
     public Scanner scanner() {
         return new Scanner(System.in);
     }
+
+    @Bean
+    public StudentDAO studentDAO(NamedParameterJdbcTemplate jdbc) {
+        return new StudentDAO(jdbc);
+    }
+
+    @Bean
+    public StudentReader studentReader(Scanner scanner) {
+        return new StudentReader(scanner);
+    }
+
+    @Bean
+    public InsertStudentProgram insertStudentProgram(StudentDAO studentDAO, StudentReader studentReader) {
+        return new InsertStudentProgram(studentDAO, studentReader);
+    }
+
+    @Bean
+    public GroupDAO groupDAO(NamedParameterJdbcTemplate jdbc) {
+        return new GroupDAO(jdbc);
+    }
+
+    @Bean
+    public GroupReader groupReader(Scanner scanner) {
+        return new GroupReader(scanner);
+    }
+
+    @Bean
+    public InsertGroupProgram insertGroupProgram(GroupDAO groupDAO, GroupReader groupReader) {
+        return new InsertGroupProgram(groupDAO, groupReader);
+    }
 }

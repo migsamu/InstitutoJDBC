@@ -17,7 +17,7 @@ public class TitleReader {
         this.scanner = scanner;
     }
 
-    public Title pideTitutlo() {
+    public Title askTitle() {
 
         log.info("Introduce el nombre del título");
         String name = scanner.nextLine();

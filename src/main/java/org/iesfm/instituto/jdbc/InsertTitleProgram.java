@@ -12,9 +12,9 @@ public class InsertTitleProgram {
         this.titleReader = titleReader;
     }
 
-    public void creaTitutlo() {
+    public void createTitle() {
 
-        titleDAO.insertar(titleReader.pideTitutlo());
+        titleDAO.insert(titleReader.askTitle());
     }
 
     public List<Title> select() {

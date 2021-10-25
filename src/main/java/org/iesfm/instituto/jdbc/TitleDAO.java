@@ -29,8 +29,9 @@ public class TitleDAO {
         this.jdbc = jdbc;
     }
 
-    public void insertar(Title title) {
+    public void insert(Title title) {
         Map<String, Object> params = new HashMap<>();
+
         params.put("name", title.getName());
         params.put("level", title.getLevel());
         params.put("family", title.getFamily());

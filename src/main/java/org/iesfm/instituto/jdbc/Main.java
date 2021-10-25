@@ -12,9 +12,16 @@ public class Main {
     public static void main(String[] args) {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(InstitutoConfiguration.class);
-        InsertTitleProgram program = context.getBean(InsertTitleProgram.class);
-       // program.creaTitutlo();
-        log.info(program.select().toString());
+
+        InsertTitleProgram titleProgram = context.getBean(InsertTitleProgram.class);
+        //titleProgram.createTitle();
+        //log.info(titleProgram.select().toString());
+
+        InsertStudentProgram studentProgram = context.getBean(InsertStudentProgram.class);
+        //studentProgram.createStudent();
+        InsertGroupProgram groupProgram = context.getBean(InsertGroupProgram.class);
+        groupProgram.createGroup();
+
 
     }
 }
