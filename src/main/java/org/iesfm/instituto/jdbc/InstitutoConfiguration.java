@@ -7,6 +7,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
+import java.util.Scanner;
 
 @Configuration
 public class InstitutoConfiguration {
@@ -28,7 +29,22 @@ public class InstitutoConfiguration {
     }
 
     @Bean
-    public InsertTitleProgram insertTitleProgram(NamedParameterJdbcTemplate jdbc) {
-        return new InsertTitleProgram(jdbc);
+    public InsertTitleProgram insertTitleProgram(TitleDAO titleDAO, TitleReader titleReader) {
+        return new InsertTitleProgram(titleDAO, titleReader);
+    }
+
+    @Bean
+    public TitleReader titleReader(Scanner scanner) {
+        return new TitleReader(scanner);
+    }
+
+    @Bean
+    public TitleDAO titleDAO(NamedParameterJdbcTemplate jdbc) {
+        return new TitleDAO(jdbc);
+    }
+
+    @Bean
+    public Scanner scanner() {
+        return new Scanner(System.in);
     }
 }

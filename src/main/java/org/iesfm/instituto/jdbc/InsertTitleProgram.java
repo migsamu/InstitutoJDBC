@@ -1,44 +1,23 @@
 package org.iesfm.instituto.jdbc;
 
-import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-
-import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 
 public class InsertTitleProgram {
-    private final static String INSERT_TITLE = "INSERT INTO" +
-            " title(" +
-            "title_name, " +
-            "title_level, " +
-            "family, " +
-            "title_description) " +
-            "VALUES(" +
-            ":name," +
-            ":level," +
-            ":family," +
-            ":description)";
 
-    private NamedParameterJdbcTemplate jdbc;
+    private TitleDAO titleDAO;
+    private TitleReader titleReader;
 
-
-    public InsertTitleProgram(NamedParameterJdbcTemplate jdbc) {
-        this.jdbc = jdbc;
+    public InsertTitleProgram(TitleDAO titleDAO, TitleReader titleReader) {
+        this.titleDAO = titleDAO;
+        this.titleReader = titleReader;
     }
 
-    public void insert() {
-        Title title = new Title(null,
-                "Desarrollo de aplicaciones web",
-                "GS",
-                "Informatica",
-                "Hacer aplicaciones web"
-        );
+    public void creaTitutlo() {
 
-        Map<String, Object> params = new HashMap<>();
-        params.put("name",title.getName());
-        params.put("level",title.getLevel());
-        params.put("family",title.getFamily());
-        params.put("description",title.getDescription());
+        titleDAO.insertar(titleReader.pideTitutlo());
+    }
 
-        jdbc.update(INSERT_TITLE, params);
+    public List<Title> select() {
+        return titleDAO.list();
     }
 }
