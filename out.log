@@ -63,3 +63,16 @@
 2021-10-26 00:30:52 INFO  GroupReader:22 - Introduce la letra
 2021-10-26 00:30:54 INFO  GroupReader:24 - Introduce el título
 2021-10-26 00:30:58 INFO  GroupReader:26 - Introduce el año
+2021-10-26 08:46:43 INFO  GroupReader:20 - Introduce el curso
+2021-10-26 08:46:48 INFO  GroupReader:22 - Introduce la letra
+2021-10-26 08:46:50 INFO  GroupReader:24 - Introduce el título
+2021-10-26 08:46:52 INFO  GroupReader:26 - Introduce el año
+2021-10-26 09:12:19 INFO  Main:18 - [Title{id=1, name='Desarrollo de aplicaciones web', level='GS', family='Informatica', description='Hacer aplicaciones web'}, Title{id=2, name='daw', level='gs', family='IT', description='crear apps web'}]
+2021-10-26 10:21:12 INFO  GroupReader:20 - Introduce el curso
+2021-10-26 10:21:18 INFO  GroupReader:22 - Introduce la letra
+2021-10-26 10:21:20 INFO  GroupReader:24 - Introduce el título
+2021-10-26 10:21:22 INFO  GroupReader:26 - Introduce el año
+2021-10-26 10:22:57 INFO  GroupReader:20 - Introduce el curso
+2021-10-26 10:23:00 INFO  GroupReader:22 - Introduce la letra
+2021-10-26 10:23:01 INFO  GroupReader:24 - Introduce el título
+2021-10-26 10:23:31 INFO  GroupReader:26 - Introduce el año

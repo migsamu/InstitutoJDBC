@@ -35,7 +35,7 @@ public class GroupDAO {
         params.put("letter", group.getLetter());
         params.put("title", group.getTitle());
         // FIXME No value supplied for the SQL parameter 'year': No value registered for key 'year'
-        params.put("group_year", group.getYear());
+        params.put("year", group.getYear());
 
         jdbc.update(INSERT_GROUP, params);
     }
