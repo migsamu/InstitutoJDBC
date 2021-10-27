@@ -1,6 +1,16 @@
 package org.iesfm.instituto.jdbc;
 
 
+import org.iesfm.instituto.jdbc.dao.GroupDAO;
+import org.iesfm.instituto.jdbc.dao.StudentDAO;
+import org.iesfm.instituto.jdbc.dao.TitleDAO;
+import org.iesfm.instituto.jdbc.programs.InsertGroupProgram;
+import org.iesfm.instituto.jdbc.programs.InsertStudentProgram;
+import org.iesfm.instituto.jdbc.programs.InsertTitleProgram;
+import org.iesfm.instituto.jdbc.readers.GroupReader;
+import org.iesfm.instituto.jdbc.readers.ScannerUtils;
+import org.iesfm.instituto.jdbc.readers.StudentReader;
+import org.iesfm.instituto.jdbc.readers.TitleReader;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,7 +32,7 @@ public class InstitutoConfiguration {
 
     @Bean
     public DataSource dataSource(
-            //plasceholder
+            //placeholder
             @Value("${database.driver}") String driver,
             @Value("${database.url}") String url,
             @Value("${database.user}") String user,
@@ -39,8 +49,8 @@ public class InstitutoConfiguration {
     }
 
     @Bean
-    public InsertTitleProgram insertTitleProgram(TitleDAO titleDAO, TitleReader titleReader) {
-        return new InsertTitleProgram(titleDAO, titleReader);
+    public InsertTitleProgram insertTitleProgram(TitleDAO titleDAO, TitleReader titleReader, Scanner scanner) {
+        return new InsertTitleProgram(titleDAO, titleReader,scanner);
     }
 
     @Bean
@@ -86,5 +96,21 @@ public class InstitutoConfiguration {
     @Bean
     public InsertGroupProgram insertGroupProgram(GroupDAO groupDAO, GroupReader groupReader) {
         return new InsertGroupProgram(groupDAO, groupReader);
+    }
+
+    @Bean
+    public ScannerUtils scannerUtils(Scanner scan) {
+        return new ScannerUtils(scan);
+    }
+
+    @Bean
+    public ProgramMenu programMenu(
+            Scanner scanner,
+            InsertGroupProgram insertGroupProgram,
+            InsertTitleProgram insertTitleProgram,
+            InsertStudentProgram insertStudentProgram,
+            ScannerUtils scannerUtils) {
+
+        return new ProgramMenu(scanner, insertGroupProgram, insertTitleProgram, insertStudentProgram, scannerUtils);
     }
 }

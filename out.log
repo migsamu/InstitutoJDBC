@@ -76,3 +76,242 @@
 2021-10-26 10:23:00 INFO  GroupReader:22 - Introduce la letra
 2021-10-26 10:23:01 INFO  GroupReader:24 - Introduce el título
 2021-10-26 10:23:31 INFO  GroupReader:26 - Introduce el año
+2021-10-27 12:00:28 INFO  Main:18 - [Title{id=1, name='Desarrollo de aplicaciones web', level='GS', family='Informatica', description='Hacer aplicaciones web'}, Title{id=2, name='daw', level='gs', family='IT', description='crear apps web'}]
+2021-10-27 12:50:39 INFO  ProgramMenu:37 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos
+2021-10-27 12:54:22 INFO  ProgramMenu:50 - Gracias por usar nuestra aplicacion.
+2021-10-27 12:56:17 INFO  ProgramMenu:44 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 12:56:39 INFO  ProgramMenu:49 - Gracias por usar nuestra aplicacion.
+2021-10-27 12:58:32 INFO  ProgramMenu:44 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 12:58:35 INFO  ProgramMenu:44 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:10:45 WARN  AnnotationConfigApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'programMenu' defined in org.iesfm.instituto.jdbc.InstitutoConfiguration: Unsatisfied dependency expressed through method 'programMenu' parameter 4; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.iesfm.instituto.jdbc.readers.ScannerUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-10-27 13:13:09 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:13:18 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:13:24 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:14:05 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:15:11 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:15:11 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:15:14 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-27 13:15:14 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:15:19 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:15:57 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:15:57 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:01 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-27 13:16:01 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:07 ERROR ScannerUtils:40 - Error, el numero debe ser positivo
+2021-10-27 13:16:07 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:11 INFO  ProgramMenu:49 - El numero debe ser entre 0 y 6
+2021-10-27 13:16:11 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:17 ERROR ScannerUtils:40 - Error, el numero debe ser positivo
+2021-10-27 13:16:17 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:41 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:16:41 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:44 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-27 13:16:44 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:47 ERROR ScannerUtils:40 - Error, el numero debe ser positivo
+2021-10-27 13:16:47 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:50 INFO  ProgramMenu:49 - El numero debe ser entre 0 y 6
+2021-10-27 13:16:50 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:16:52 INFO  ProgramMenu:54 - Gracias por usar nuestra aplicacion.
+2021-10-27 13:20:38 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:20:38 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:20:47 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:20:47 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:21:51 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:21:51 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:21:54 INFO  ProgramMenu:58 - []
+2021-10-27 13:21:54 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:21:54 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:22:02 INFO  ProgramMenu:54 - Gracias por usar nuestra aplicacion.
+2021-10-27 13:23:02 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:23:02 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:23:06 INFO  ProgramMenu:62 - [Title{id=1, name='Desarrollo de aplicaciones web', level='GS', family='Informatica', description='Hacer aplicaciones web'}, Title{id=2, name='daw', level='gs', family='IT', description='crear apps web'}]
+2021-10-27 13:23:06 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:23:06 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:23:10 INFO  ProgramMenu:66 - [Group{id=1, course='2', letter='a', title='gs', year=21}]
+2021-10-27 13:23:10 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:23:10 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:23:22 INFO  StudentReader:20 - Introduce el nif:
+2021-10-27 13:23:35 INFO  StudentReader:22 - Introduce el nombre:
+2021-10-27 13:23:43 INFO  StudentReader:24 - Introduce el apellido:
+2021-10-27 13:23:46 INFO  StudentReader:26 - Introduce el código postal:
+2021-10-27 13:23:50 INFO  StudentReader:29 - Introduce la dirección:
+2021-10-27 13:23:59 INFO  StudentReader:31 - Introduce el email:
+2021-10-27 13:24:09 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:24:09 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:24:16 INFO  ProgramMenu:58 - [Student{nif='432157h', name='Amparo', surname='FM', zipCode=23456, address='calle nueva', email='amparo@prueba.com'}]
+2021-10-27 13:24:16 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:24:16 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:24:22 INFO  ProgramMenu:54 - Gracias por usar nuestra aplicacion.
+2021-10-27 13:43:00 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:43:00 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 13:43:06 INFO  ProgramMenu:68 - [Informatica, IT]
+2021-10-27 13:43:06 INFO  ProgramMenu:46 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+0- SALIR
+2021-10-27 13:43:06 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 14:14:01 INFO  ProgramMenu:47 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos
+0- SALIR
+2021-10-27 14:14:01 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-27 14:14:12 INFO  InsertTitleProgram:44 - Introduzca la familia que quiere consultar
+2021-10-27 14:14:18 INFO  ProgramMenu:71 - [Title{id=2, name='daw', level='gs', family='IT', description='crear apps web'}]
+2021-10-27 14:14:18 INFO  ProgramMenu:47 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos
+0- SALIR
+2021-10-27 14:14:18 INFO  ScannerUtils:25 - Introduce un numero

@@ -1,5 +1,6 @@
-package org.iesfm.instituto.jdbc;
+package org.iesfm.instituto.jdbc.dao;
 
+import org.iesfm.instituto.jdbc.pojos.Group;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
 import java.util.HashMap;

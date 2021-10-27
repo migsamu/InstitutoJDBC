@@ -1,4 +1,8 @@
-package org.iesfm.instituto.jdbc;
+package org.iesfm.instituto.jdbc.programs;
+
+import org.iesfm.instituto.jdbc.pojos.Student;
+import org.iesfm.instituto.jdbc.dao.StudentDAO;
+import org.iesfm.instituto.jdbc.readers.StudentReader;
 
 import java.util.List;
 

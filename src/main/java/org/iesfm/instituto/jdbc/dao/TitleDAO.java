@@ -1,5 +1,6 @@
-package org.iesfm.instituto.jdbc;
+package org.iesfm.instituto.jdbc.dao;
 
+import org.iesfm.instituto.jdbc.pojos.Title;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
 import java.util.HashMap;
@@ -9,8 +10,9 @@ import java.util.Map;
 
 public class TitleDAO {
 
+    private final static String SELECT_FAMILY_TITLES = "SELECT * FROM title WHERE family = :family ";
+    private final static String SELECT_FAMILY = "SELECT DISTINCT family FROM title";
     private final static String SELECT_TITLES = "SELECT * FROM title";
-
     private final static String INSERT_TITLE = "INSERT INTO" +
             " title(" +
             "title_name, " +
@@ -44,6 +46,29 @@ public class TitleDAO {
         Map<String, Object> params = new HashMap<>();
 
         return jdbc.query(SELECT_TITLES, params, (rs, n) ->
+                new Title(
+                        rs.getInt("title_id"),
+                        rs.getString("title_name"),
+                        rs.getString("title_level"),
+                        rs.getString("family"),
+                        rs.getString("title_description")
+
+                ));
+    }
+
+    public List<String> showFamilies() {
+        Map<String, Object> params = new HashMap<>();
+        return jdbc.query(SELECT_FAMILY, params, (rs, n) ->
+                new String(rs.getString("family")
+                )
+        );
+    }
+
+    public List<Title> showFamilyTitles(String family) {
+
+        Map<String, Object> params = new HashMap<>();
+        params.put("family", family);
+        return jdbc.query(SELECT_FAMILY_TITLES, params, (rs, n) ->
                 new Title(
                         rs.getInt("title_id"),
                         rs.getString("title_name"),

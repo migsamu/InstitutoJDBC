@@ -1,5 +1,6 @@
-package org.iesfm.instituto.jdbc;
+package org.iesfm.instituto.jdbc.readers;
 
+import org.iesfm.instituto.jdbc.pojos.Group;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
