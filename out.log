@@ -315,3 +315,79 @@
 7- Muestra las familias de los titulos
 0- SALIR
 2021-10-27 14:14:18 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:05:34 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:05:34 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:05:59 INFO  ProgramMenu:74 - El numero debe ser entre 0 y 8
+2021-10-28 20:05:59 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:06:05 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:06:05 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:06:09 INFO  ProgramMenu:56 - Gracias por usar nuestra aplicacion.
+2021-10-28 20:06:23 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:06:23 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:06:33 INFO  ProgramMenu:56 - Gracias por usar nuestra aplicacion.
+2021-10-28 20:06:36 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:06:36 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:11:09 INFO  TitleReader:21 - Introduce el nombre del título
+2021-10-28 20:11:17 INFO  TitleReader:23 - Introduce el nivel del título
+2021-10-28 20:11:21 INFO  TitleReader:25 - Introduce la familia del título
+2021-10-28 20:11:26 INFO  TitleReader:27 - Introduce una breve descripción del título
+2021-10-28 20:11:36 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:11:36 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:11:40 INFO  ProgramMenu:64 - [Title{id=1, name='dam', level='gs', family='IT', description='desrrollar apps multiplataforma'}, Title{id=2, name='daw', level='gs', family='IT', description='desarrollar apps web'}]
+2021-10-28 20:11:40 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:11:40 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:11:52 INFO  ProgramMenu:56 - Gracias por usar nuestra aplicacion.
