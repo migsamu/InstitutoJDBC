@@ -315,6 +315,7 @@
 7- Muestra las familias de los titulos
 0- SALIR
 2021-10-27 14:14:18 INFO  ScannerUtils:25 - Introduce un numero
+<<<<<<< HEAD
 2021-11-08 13:02:46 INFO  DefaultTestContextBootstrapper:245 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
 2021-11-08 13:02:46 INFO  DefaultTestContextBootstrapper:174 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@10959ece, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3a6bb9bf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@34f7cfd9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@65f095f8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@59af0466, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e6ef8ad, org.springframework.test.context.event.EventPublishingTestExecutionListener@346d61be]
 2021-11-08 13:02:46 ERROR TestContextManager:252 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@34f7cfd9] to prepare test instance [org.iesfm.instituto.jdbc.dao.TitleDAOTest@1817f1eb]
@@ -475,3 +476,81 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2021-11-08 13:45:08 INFO  DefaultTestContextBootstrapper:174 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@366647c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6a6afff2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1649b0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@865dd6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4da4253, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3972a855, org.springframework.test.context.event.EventPublishingTestExecutionListener@62e7f11d]
 2021-11-08 13:45:33 INFO  DefaultTestContextBootstrapper:245 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
 2021-11-08 13:45:33 INFO  DefaultTestContextBootstrapper:174 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@366647c2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6a6afff2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1649b0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@865dd6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4da4253, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3972a855, org.springframework.test.context.event.EventPublishingTestExecutionListener@62e7f11d]
+=======
+2021-10-28 20:05:34 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:05:34 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:05:59 INFO  ProgramMenu:74 - El numero debe ser entre 0 y 8
+2021-10-28 20:05:59 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:06:05 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:06:05 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:06:09 INFO  ProgramMenu:56 - Gracias por usar nuestra aplicacion.
+2021-10-28 20:06:23 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:06:23 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:06:33 INFO  ProgramMenu:56 - Gracias por usar nuestra aplicacion.
+2021-10-28 20:06:36 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:06:36 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:11:09 INFO  TitleReader:21 - Introduce el nombre del título
+2021-10-28 20:11:17 INFO  TitleReader:23 - Introduce el nivel del título
+2021-10-28 20:11:21 INFO  TitleReader:25 - Introduce la familia del título
+2021-10-28 20:11:26 INFO  TitleReader:27 - Introduce una breve descripción del título
+2021-10-28 20:11:36 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:11:36 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:11:40 INFO  ProgramMenu:64 - [Title{id=1, name='dam', level='gs', family='IT', description='desrrollar apps multiplataforma'}, Title{id=2, name='daw', level='gs', family='IT', description='desarrollar apps web'}]
+2021-10-28 20:11:40 INFO  ProgramMenu:48 - Seleccione una opcion 
+1- Insertar alumno.
+2- Mostrar lista de alumnos. 
+3- Insertar titulo. 
+4- Mostrar lista de titulos
+5- Insertar grupo.
+6- Mostrar lista de grupos. 
+7- Muestra las familias de los titulos. 
+8- Muestra los titulos de una familia. 
+0- SALIR
+2021-10-28 20:11:40 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-28 20:11:52 INFO  ProgramMenu:56 - Gracias por usar nuestra aplicacion.
+>>>>>>> 112bd0c40d50a667f41dfc5dc67ef7bce6c48eac

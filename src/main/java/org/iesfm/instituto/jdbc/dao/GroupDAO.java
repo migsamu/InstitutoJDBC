@@ -31,11 +31,9 @@ public class GroupDAO {
     public void insert(Group group) {
         Map<String, Object> params = new HashMap();
 
-        params.put("group_id", group.getId());
         params.put("course", group.getCourse());
         params.put("letter", group.getLetter());
         params.put("title", group.getTitle());
-        // FIXME No value supplied for the SQL parameter 'year': No value registered for key 'year'
         params.put("year", group.getYear());
 
         jdbc.update(INSERT_GROUP, params);
