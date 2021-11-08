@@ -1,6 +1,7 @@
 package org.iesfm.instituto.jdbc.dao;
 
 import org.iesfm.instituto.jdbc.pojos.Student;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
 import java.util.HashMap;
@@ -32,7 +33,7 @@ public class StudentDAO {
         this.jdbc = jdbc;
     }
 
-    public void insert(Student student) {
+    public boolean insert(Student student) {
         Map<String, Object> params = new HashMap<>();
 
         params.put("nif", student.getNif());
@@ -41,8 +42,12 @@ public class StudentDAO {
         params.put("zipCode", student.getZipCode());
         params.put("address", student.getAddress());
         params.put("email", student.getEmail());
-
-        jdbc.update(INSERT_STUDENT, params);
+        try {
+            jdbc.update(INSERT_STUDENT, params);
+            return true;
+        } catch (DuplicateKeyException e) {
+            return false;
+        }
     }
 
     public List<Student> list() {

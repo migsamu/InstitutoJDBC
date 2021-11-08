@@ -1,8 +1,5 @@
 package org.iesfm.instituto.jdbc;
 
-import org.iesfm.instituto.jdbc.programs.InsertGroupProgram;
-import org.iesfm.instituto.jdbc.programs.InsertStudentProgram;
-import org.iesfm.instituto.jdbc.programs.InsertTitleProgram;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
