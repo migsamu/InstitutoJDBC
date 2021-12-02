@@ -43,7 +43,7 @@ public class TitleDAOTest {
     }
 
     @Test
-    public void getFamilyTiles() {
+    public void getFamilyTitles() {
 
         List<Title> titles = titleDAO.showFamilyTitles("IT");
         Assert.assertEquals(1, titles.size());

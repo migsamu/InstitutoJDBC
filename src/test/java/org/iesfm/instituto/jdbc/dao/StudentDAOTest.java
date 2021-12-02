@@ -25,7 +25,7 @@ public class StudentDAOTest {
                 "1234567h",
                 "Alvaro",
                 "Perez Lopez",
-                12345,
+                123451,
                 "calle inventada",
                 "miguel@miguel.com"
         );
@@ -37,6 +37,6 @@ public class StudentDAOTest {
     public void get() {
         List<Student> students = studentDAO.list();
 
-        Assert.assertEquals(2, students.size());
+        Assert.assertEquals(4, students.size());
     }
 }
